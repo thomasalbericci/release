@@ -3,14 +3,14 @@
 	<groupId>GibertiniAlbericci</groupId>
 	<artifactId>provaDeploy</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0.1</version>
+	<version>0.0.2-snapshot</version>
 	<name>provaDeploy Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
 	<scm>
-		<connection>scm:git:https://github.com/thomasalbericci/release/.git</connection>
-		<developerConnection>scm:git:https://github.com/thomasalbericci/release/.git</developerConnection>
-		<url>scm:git:https://github.com/thomasalbericci/release/.git</url>
+		<connection>scm:git:https://github.com/thomasalbericci/release/</connection>
+		<developerConnection>scm:git:https://github.com/thomasalbericci/release/</developerConnection>
+		<url>scm:git:https://github.com/thomasalbericci/release/</url>
 		<tag>provaDeploy-0.0.1</tag>
 	</scm>
 
@@ -152,7 +152,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
 					<checkModificationExcludes>
-<!-- 						<checkModificationExclude>pom.xml</checkModificationExclude> -->
+ 						<checkModificationExclude>pom.xml</checkModificationExclude>
 					</checkModificationExcludes>
 				</configuration>
 			</plugin>
